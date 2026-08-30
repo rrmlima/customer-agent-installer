@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SOURCE_URL="https://raw.githubusercontent.com/rrmlima/fazer-ai-deploy-standard/v0.3.0/scripts/bootstrap-install.sh"
-EXPECTED_SHA256="8cb9687dc9c007ce5a4c75aacdd5d10d93e1a2967474558acf76b8ab244d4185"
+SOURCE_URL="https://raw.githubusercontent.com/rrmlima/customer-agent-installer/main/bootstrap-v0.3.0.sh"
+EXPECTED_SHA256="9c5cdfb2c55ae7f58cce5e68d5cad174f1208de63b3b3c5ffbbaecc4789cb4ff"
 tmp="$(mktemp)"
 trap 'rm -f "$tmp"' EXIT
 
